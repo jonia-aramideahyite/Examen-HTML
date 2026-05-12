@@ -1,0 +1,164 @@
+body{
+    background-color: #F8FAFC;
+}
+
+header{
+    background-color:#1E3A8A;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+padding: 20px;}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    justify-content: center;
+    text-align: center;
+    background: url(immeubles.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 400px;
+
+}
+.hero-content{
+    color: white;
+}
+.hero-content p{
+font-size: 20px;
+
+}
+.hero-content h1{
+    font-size: 50px;
+}
+.bouton-1 ,.bouton-2 {
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bouton-1 {
+    background-color:#1E3A8A;
+    color: white ;
+}
+.bouton-2 {
+    background-color: #F59E0B
+     ;color: white;
+}
+.presentation{
+    text-align: center;
+}
+.card-content{ display: flex;
+    gap: 90px;
+    align-items: center;
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(300px,1fr));
+
+    gap: 20px;
+
+    padding: 40px 10%;
+
+}
+.card h3{ color: #1E3A8A
+; font-size: 25px;}
+.card p{
+    font-size: 18px; color: #111827;
+}
+.card{
+    background-color:#FFFFFF ;
+    width: 90%; height: 550px;
+    border-radius: 15px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    gap: 50px;
+    padding: 50px;
+
+
+}
+.stat{
+    text-align: center;
+}
+footer{
+    background-color:#0F172A; padding: 20px; text-align: center;
+}
+
+footer nav ul {
+    justify-content: center;
+}
+.services{
+ display: flex;gap: 100px;padding: 50px; justify-content:center ;align-items: center;text-align: center;
+}
+.card-s i{
+    color: #F59E0B;font-size: 40px;
+}
+.card-s h3{
+    color: #1E3A8A;font-size: 25px;
+}
+.card-s p{
+    font-size: 18px; color: #111827;
+}
+.card-s{
+    background-color: #FFFFFF;border-radius: 15px;padding: 20px;
+}
+.val h2{
+    color: #1E3A8A;align-items: center; font-size: 35px;
+}
+.val{
+    text-align: center;padding: 20px;
+}
+.val p{
+    font-size: 20px;
+}
+.histoire{
+    text-align: center;padding: 20px;
+}
+.histoire h1{
+    color: #1E3A8A; font-size: 40px;
+}
+.histoire p{
+    font-size: 20px;
+}
+form{
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+input,
+textarea,
+select{
+    padding: 15px;
+    border: 1px solid  #111827;
+}
+
+button{
+    padding: 15px;
+    background-color: #1E3A8A;
+    color: white;
+    border: none;
+}
